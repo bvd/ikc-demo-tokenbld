@@ -37,7 +37,8 @@ module.exports = function(context, req) {
             userGuid: userGuid,
             challenge: randomtext,
             keyName: KEY_NAME,
-            token: hash
+            token: hash,
+			take: 5
         }
     };
 
