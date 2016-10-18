@@ -12,7 +12,7 @@ Maybe you should not wait calling this sort of code until the moment that the co
 
 ## example implementation
 
-In the example implementation below, the authenticate() and authorize() are your own implementations. As soon as the user is authenticated and authorized, the buildToken implementation is called. The buildToken() method will thus contain code that implements the algorithm that is demonstrated in this project.
+In the example implementation below, the authenticate() and authorize() are your own implementations. As soon as the user is authenticated and authorized, the buildToken implementation is called. The buildToken() method will thus contain code that implements the algorithm that is demonstrated in this project. In this example there would be a session object that remembers the authorization object for ikcomponeer, in order to have it ready when the composition tool needs to open quickly.
 
 ```
 if(authenticate(logindata) && authorize(logindata)){
