@@ -8,7 +8,7 @@ The code is meant as an implementation example for clients of the composition en
 
 ## advised point of implementation
 
-Maybe you should not wait calling this sort of code until the moment that the composition tool has to open in the embedding page. When you think it is important that the composition tool will open very quickly, you may already create the hash as soon as the login of the user is authenticated and authorized in your platform.
+Maybe you should not wait calling this sort of code until the moment that the composition tool has to open in the embedding page. When you think it is important that the composition tool will open very quickly, you may already create the hash as soon as the login of the user is authenticated and authorized in your platform. You will then have it ready when the composition tool needs to open quickly.
 
 ## example implementation
 
